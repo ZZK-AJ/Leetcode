@@ -109,16 +109,10 @@ if __name__ == "__main__":
     l2_list = [5, 6, 4]
 
     l1 = ListNode(0)        # 初始化l1
-    print(l1)
     l1_copy = l1        # 这里为什么要用l1_copy才能构造出
-    print(l1_copy)
     for l1_index in l1_list:
-        print(l1_index)
         l1_copy.next = ListNode(l1_index)   # 这里可以看出，下一个里面存着一个ListNode对象，在下一次循环给它赋值
-        print(l1.next)
         l1_copy = l1_copy.next   # 这里都是用来了l1_copy，为什么后面用l1.next,因为l1和l1_copy都指向同一个对象
-        print(l1_copy)
-        print('===')
 
     l2 = ListNode(0)
     l2_copy = l2
@@ -134,5 +128,9 @@ if __name__ == "__main__":
 
 
 
+![image-20190513190947131](/Users/zzk/Library/Application Support/typora-user-images/image-20190513190947131.png)
 
+
+
+![image-20190513190952715](/Users/zzk/Library/Application Support/typora-user-images/image-20190513190952715.png)
 
