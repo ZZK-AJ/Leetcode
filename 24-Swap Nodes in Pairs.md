@@ -74,3 +74,8 @@ if __name__ == "__main__":
     final_ln = Solution().swapPairs(l1)
     print(final_ln)
 ```
+
+### Java解法
+
+后续补充！
+
