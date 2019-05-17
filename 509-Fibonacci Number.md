@@ -80,5 +80,24 @@ class Solution:
 
 
 
+### Java解法
+
+```java
+class Solution {
+     public int fib(int N) {
+        if (N < 2) {
+            return N;
+        }
+        int result=1,exResult=0,temp;
+        for(int i =2;i<=N;i++){
+            temp = result;
+            result+=exResult;
+            exResult =temp;
+        }
+        return result;
+    }
+}
+```
+
 
 
