@@ -49,6 +49,7 @@ Explanation: The root node's value is 5 but its right child's value is 4.
 ![image-20190530121441568](/Users/zzk/Library/Application Support/typora-user-images/image-20190530121441568.png)
 
 ```python
+
 class Solution(object):
     def isValidBST(self, root):
         """
